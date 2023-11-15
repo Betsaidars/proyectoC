@@ -1,0 +1,222 @@
+:root{
+
+--StrongCyan: hsl(171, 66%, 44%);
+--LightBlue: hsl(233, 100%, 69%);
+--DarkGrayishBlue: hsl(210, 10%, 33%);
+--GrayishBlue: hsl(201, 11%, 66%);
+}
+
+body{
+    margin: 0;
+}
+header{
+    background-image: url(../images/bg-header-mobile.png);
+    background-size: cover;
+    height: 20rem;
+}
+header img{
+    margin-left: 8rem;
+    margin-top: 6rem;
+}
+.parte1{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-inline: 2rem;
+}
+.parte1 h1{
+    font-weight: bold;
+}
+.parte1 p{
+    color: var(--GrayishBlue);
+    line-height: 1.5rem;
+}
+.botones1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+.ios{
+    background-color: var(--StrongCyan);
+    padding-block: 0.8rem;
+    margin-inline: 2rem;
+    border-radius: 2rem;
+    border-bottom: 2px hsl(171, 75%, 30%) solid;
+}
+.ios a{
+    color: #fff;
+    text-decoration: none;
+}
+.mac{
+    margin-top: 1rem;
+    background-color: var(--LightBlue);
+    padding-block: 0.8rem;
+    margin-inline: 2rem;
+    border-radius: 2rem;
+    border-bottom: 2px hsl(233, 46%, 49%) solid;
+}
+.mac a{
+    color: #fff;
+    text-decoration: none;
+}
+.parte2{
+    margin-top: 10rem;
+    margin-inline: 2rem;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.parte2 p{
+    color: var(--GrayishBlue);
+}
+.fotopc{
+    background-image: url(../images/image-computer.png);
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+    margin-top: 3.5rem;
+}
+.parte3{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-inline: 2rem;
+    margin-top: 5rem;
+}
+.parte3 p{
+    color: var(--GrayishBlue);
+}
+.parte4{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-inline: 2rem;
+    margin-top: 9rem;
+}
+.parte4 p{
+    color: var(--GrayishBlue);
+}
+.fotomobileytablet{
+    background-image: url(../images/image-devices.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    width: 100%;
+    height: 15rem;
+}
+.parte5{
+    text-align: center;
+    margin-inline: 2rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 3rem;
+}
+.parte5 p{
+    color: var(--GrayishBlue);
+}
+.parte6{
+    text-align: center;
+    margin-top: 5rem;
+}
+.infopergamino{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-inline: 2rem;
+}
+.infopergamino p{
+    color: var(--GrayishBlue);
+    font-size: 17px;
+}
+.letraa{
+    margin-top: 3.5rem;
+    text-align: center;
+    margin-inline: 2rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.letraa p{
+    font-size: 18px;
+    color: var(--GrayishBlue);
+}
+.ojo{
+    margin-top: 3.5rem;
+    text-align: center;
+    margin-inline: 2rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.ojo p{
+    font-size: 18px;
+    color: var(--GrayishBlue);
+}
+.marcas{
+    margin-top: 8rem;
+    text-align: center;
+}
+.ibm{
+    margin-top: 4rem;
+}
+.microsoft{
+    margin-top: 4rem;
+}
+.enterprise{
+    margin-top: 4rem;
+}
+.vector{
+    margin-top: 4rem;
+}
+.parte7{
+    margin-top: 12rem;
+    text-align: center;
+    margin-inline: 2rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.parte7 p{
+    color: var(--GrayishBlue);
+    font-size: 18px;
+}
+.botones7{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+.ios2{
+    background-color: var(--StrongCyan);
+    padding-block: 0.8rem;
+    margin-inline: 2rem;
+    border-radius: 2rem;
+    border-bottom: 2px hsl(171, 75%, 30%) solid;
+}
+.ios2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.mac2{
+    margin-top: 1rem;
+    background-color: var(--LightBlue);
+    padding-block: 0.8rem;
+    margin-inline: 2rem;
+    border-radius: 2rem;
+    border-bottom: 2px hsl(233, 46%, 49%) solid;
+}
+.mac2 a{
+    color: #fff;
+    text-decoration: none;
+}
+footer{
+    background-color: hsl(200, 14%, 91%);
+    margin-top: 10rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.iconofooter{
+    background-image: url(../images/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 5rem;
+    margin-left: 9.5rem;
+}
+.footerfooter{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: var(--DarkGrayishBlue);
+}
+.redes{
+    margin-top: 5rem;
+    text-align: center;
+    word-spacing: 2.5rem;
+}
